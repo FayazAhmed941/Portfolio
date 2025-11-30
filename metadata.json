@@ -1,0 +1,5 @@
+{
+  "name": "Animated React Portfolio",
+  "description": "A fully responsive, modern, and highly animated personal portfolio website built with React, TypeScript, Framer Motion, and Tailwind CSS. It features a stunning design with dark/light mode, smooth animations, and sections for projects, skills, and contact information.",
+  "requestFramePermissions": []
+}
