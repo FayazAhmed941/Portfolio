@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import mypic from '../assets/my avatar.jpeg';
 
 // Icon for download button
 const DownloadIcon = () => (
@@ -149,7 +150,8 @@ const Hero: React.FC = () => {
                     />
                     <div className="absolute inset-2 bg-gray-100 dark:bg-gray-900 rounded-full p-2">
                          <img 
-                            src="https://picsum.photos/seed/developer/500/500" 
+                            // src="https://picsum.photos/seed/developer/500/500" 
+                            src={mypic}
                             alt="Fayaz Ahmed" 
                             className="w-full h-full object-cover rounded-full shadow-2xl"
                         />
