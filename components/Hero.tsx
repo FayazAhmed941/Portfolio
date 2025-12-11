@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import mypic from '../assets/my avatar.jpeg';
+import mycv from "../assets/Fayaz-Ahmed-CV.pdf"
 
 // Icon for download button
+
 const DownloadIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -124,7 +126,7 @@ const Hero: React.FC = () => {
                     Hire Me
                     </a>
                     <a
-                    href="/cv.pdf"
+                    href={mycv}
                     download
                     className="flex items-center justify-center px-8 py-3 bg-white dark:bg-gray-700 text-indigo-600 dark:text-indigo-300 font-semibold rounded-lg shadow-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300 transform hover:scale-105"
                     >
